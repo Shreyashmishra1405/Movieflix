@@ -1,0 +1,31 @@
+.listitem {
+  background-color: white;
+  width: 200px;
+  height: 250px;
+  margin-right: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+
+   &:hover{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 1px 15px 3px rgba(255,255,255,0.69);
+-webkit-box-shadow: 0px 1px 15px 3px rgba(255,255,255,0.69);
+-moz-box-shadow: 0px 1px 15px 3px rgba(255,255,255,0.69);
+    span{
+        padding: 1rem;
+        position: absolute;
+        color:white;
+        bottom: 0;
+        left: 0;
+        font-size: small;
+      }
+   }
+  
+
+}

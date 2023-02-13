@@ -1,0 +1,42 @@
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 30vh;
+  width: 100%;
+    margin-top: 5px;
+
+  .content {
+    width: 100%;
+    word-wrap: break-word;
+    padding: 0 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: gray;
+
+    .links {
+      display: flex;
+      justify-content: space-between;
+
+      span {
+        cursor: pointer;
+        color: gray;
+        font-weight: 300;
+      }
+    }
+
+    .drop {
+      width: 9%;
+      select {
+        width: 80%;
+        height: 2rem;
+        font-size: 1rem;
+        background-color: rgba(0, 0, 0, 0.336);
+        color: gray;
+        cursor: pointer;
+        padding-left: 10px;
+    }
+    }
+  }
+}

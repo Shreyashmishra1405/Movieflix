@@ -1,0 +1,41 @@
+.container-section {
+  background-color:black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  margin-top: 5px;
+  width: 100%;
+
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    padding:3rem ;
+    width: 100%;
+    align-items: center;
+
+    .item1 {
+      width: 70%;
+      word-wrap: break-word;
+
+      h1 {
+        margin: 0;
+        font-size: 3rem;
+      }
+      span {
+        font-size: 1.5rem;
+        font-weight: 400;
+
+      }
+
+      .item2{
+        width: 30%;
+      }
+
+      img{
+        overflow: auto;
+        }
+    }
+  }
+}

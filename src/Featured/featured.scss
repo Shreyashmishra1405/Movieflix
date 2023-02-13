@@ -1,0 +1,58 @@
+.featured {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  
+    video{
+      width: 100%;
+       mask-image: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
+    }
+   
+  
+  .info {
+    width: 35%;
+    position: absolute;
+    left: 50px;
+    bottom: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+    .title {
+      font-size: 2rem;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-weight: 800;
+    }
+
+    .description {
+      margin: 20px 0px;
+    }
+
+    .buttons {
+      display: flex;
+
+      .play{
+        background-color: white;
+        color: black;
+        
+      }
+      button {
+        border: none;
+        cursor: pointer;
+        padding: 10px 20px;
+        margin-right: 10px;
+        font-size: 0.7rem;
+        font-weight: 400;
+        color: white;
+        background-color: rgba(43, 39, 39, 0.707);
+
+        i{
+          span{
+            padding-left:0.4rem ;
+          }
+        }
+      }
+    }
+  }
+}
