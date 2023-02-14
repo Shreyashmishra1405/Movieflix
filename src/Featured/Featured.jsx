@@ -4,8 +4,8 @@ import "./featured.scss";
 const Featured = () => {
   return (
     <div className="featured">
-      {/* <img src="https://assets.nflxext.com/ffe/siteui/vlv3/862cc171-8df5-418c-886f-2aaf767ae159/2e1414e3-cdae-473f-af07-31f9b74741f6/IN-en-20230130-popsignuptwoweeks-perspective_alpha_website_large.jpg" alt="" /> */}
-      <video autoPlay muted src="/asset/dark.mp4"></video>
+      <img src="https://assets.nflxext.com/ffe/siteui/vlv3/862cc171-8df5-418c-886f-2aaf767ae159/2e1414e3-cdae-473f-af07-31f9b74741f6/IN-en-20230130-popsignuptwoweeks-perspective_alpha_website_large.jpg" alt="" />
+      {/* <video autoPlay muted src="/asset/dark.mp4"></video> */}
       <div className="info">
         <span className="title">DARK</span>
         <span className="description">

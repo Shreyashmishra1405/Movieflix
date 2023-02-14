@@ -75,7 +75,7 @@ const Register = () => {
             <form className="input-box">
               <input
                 type="password"
-                placeholder="password"
+                placeholder={Password}
                 autoComplete="of"
                 id=""
                 ref={passRef}
