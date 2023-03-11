@@ -4,7 +4,7 @@ import "./featured.scss";
 const Featured = () => {
   return (
     <div className="featured">
-      <img src="https://assets.nflxext.com/ffe/siteui/vlv3/862cc171-8df5-418c-886f-2aaf767ae159/2e1414e3-cdae-473f-af07-31f9b74741f6/IN-en-20230130-popsignuptwoweeks-perspective_alpha_website_large.jpg" alt="" />
+      {/* <img src="https://assets.nflxext.com/ffe/siteui/vlv3/862cc171-8df5-418c-886f-2aaf767ae159/2e1414e3-cdae-473f-af07-31f9b74741f6/IN-en-20230130-popsignuptwoweeks-perspective_alpha_website_large.jpg" alt="" /> */}
       {/* <video autoPlay muted src="/asset/dark.mp4"></video> */}
       <div className="info">
         <span className="title">DARK</span>
@@ -20,10 +20,14 @@ const Featured = () => {
         </span>
         <div className="buttons">
           <button className="play">
-            <i className="fa-solid fa-play"><span>play</span></i>
+            <i className="fa-solid fa-play">
+              <span>play</span>
+            </i>
           </button>
           <button>
-            <i className="fa-solid fa-circle-info"><span>Info</span></i>
+            <i className="fa-solid fa-circle-info">
+              <span>Info</span>
+            </i>
           </button>
         </div>
       </div>

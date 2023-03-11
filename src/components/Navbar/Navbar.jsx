@@ -7,9 +7,6 @@ const Navbar = () => {
   const navigate=useNavigate();
 
   return (
-
-    
-
     <div className= "navbar">
       <div className="container">
         <div className="left">
