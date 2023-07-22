@@ -27,7 +27,7 @@ const Login = () => {
             />
             <button type="button">Sign in</button>
             <span>
-              New to Netflix? <b onClick={() => navigate("/")}>Sign up now.</b>
+              New to Netflix? <b onClick={() => navigate("/Register")}>Sign up now.</b>
             </span>
             <p>
               This page is protected by Google reCAPTCHA to ensure you're not a
